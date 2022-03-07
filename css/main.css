@@ -1,5 +1,10 @@
 html {
+  box-sizing: border-box;
   background-color: #fdf6e3;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 header, footer {
@@ -34,9 +39,10 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-[rel= "external"] {
+[rel="external"] {
   background-color: #2694d8;
 }
+
 ol > li:first-child {
   color: #719e47;
 }
